@@ -29,30 +29,48 @@ Business Goal: You are required to model the demand for shared bikes with the av
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+As per above analysis of the categorical variables from the dataset
+
+The season box indicates that more bikes rented during fall season
+The year 2019 indicates that more bikes rented
+The working day & holiday box indicate that more bikes rented during normal working days than on weekends or holidays.
+The weathersit box plots indicates that more bikes are rent during Clear Sky days
+By looking at the pair plot 'temp' variable has the highest (0.84) correlation with target variable 'cnt'
+
+Significant variables to predict the demand for shared bikes¶
+
+holiday
+windspeed 
+weather_mist
+weathersit_light_snow
+
+Seasons_Summer
+Seasons_Winter
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Python Library
+  pandas
+  numpy
+  matplotlib
+  seaborn
+  sklearn
+  statsmodels
+- ML algorithm
+  RFE (Recursive feature elimination)
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- This project was inspired by Linear Model building assignments
+- References https://github.com/ContentUpgrad/Linear-Regression
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@sumanes4u] - feel free to contact me!
 
 
 <!-- Optional -->
