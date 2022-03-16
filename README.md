@@ -52,14 +52,14 @@ Seasons_Winter
 
 ## Technologies Used
 - Python Library
-  pandas
-  numpy
-  matplotlib
-  seaborn
-  sklearn
-  statsmodels
+ - pandas
+ - numpy
+ - matplotlib
+ - seaborn
+ - sklearn
+ - statsmodels
 - ML algorithm
-  RFE (Recursive feature elimination)
+  - RFE (Recursive feature elimination)
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
